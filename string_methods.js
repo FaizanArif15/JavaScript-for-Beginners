@@ -1,0 +1,16 @@
+let txt = '   This is a Book  ';
+console.log(txt.toUpperCase());
+console.log(txt.toLowerCase());
+console.log(txt.replace('Book', 'Pen'));
+console.log(txt.replace(/book/i, 'Marker'));
+console.log(txt.trim());
+console.log(txt.trimEnd());
+console.log(txt.trimStart());
+console.log(txt.split(' '));
+console.log(txt.at(3));
+console.log(txt[3]);
+console.log(txt.search('is'));
+console.log(txt.startsWith(' '));
+console.log(txt.endsWith('Book'));
+console.log(`${txt}and It\'s color is Black`);
+console.log(txt.concat(`and It\'s color is Black`));
